@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #151515;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.App{
+    width: max-content;
+    border: 2px solid whitesmoke;
+    border-radius: 0.3rem;
+    padding: 1rem 2rem;
+}
+table{
+   
+    border-collapse: collapse;
+}
+table thead{
+    border-bottom:1px solid whitesmoke;
+}
+table th,td{
+    padding: 0.4rem 1rem;
+    text-align: center;
+}
+
+table tr{
+    border-bottom:1px solid whitesmoke;
+    transition: all 0.2s linear;
+}
+table tr:hover{
+    transform: scale(104%);
+    border-width: 0.4rem;
+}
+img{
+    width: 2.4rem;
+}
+.up{
+    color: green;
+}
+.down{
+    color: red;
+}
